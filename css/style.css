@@ -1,0 +1,115 @@
+/* My Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Carattere&family=Lora:wght@600&family=Merriweather:wght@300;400;700;900&family=Roboto:wght@300&display=swap');
+
+/* 
+font-family: 'Merriweather', serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Carattere', cursive;
+*/
+
+/* Root */
+
+:root {
+    --bg: #FDF7E4;
+    --color: #FAEED1;
+    --primary: #DED0B6;
+    --color--hunt: #BBAB8C;
+}
+
+body {
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
+    width: 100%;
+}
+
+/* Navbar */
+
+header {
+    left: 50%;
+    transform: translateX(-50%);
+    background: #fff;
+}
+
+header ul li a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: var(--color--hunt);
+    font-weight: 400;
+}
+
+/* Home */
+
+#home {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.text-home {
+    height: 80%;
+    background: var(--color);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.text-home h1 {
+    font-family: 'Carattere', cursive;
+    font-size: 4rem;
+}
+
+.christmas {
+    font-size: 3rem;
+    font-family: 'Lora', serif;
+}
+
+.bg-home {
+    width: 50%;
+    height: 80%;
+    background-image: url(../img/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.btn-shop {
+    background: var(--primary);
+    padding: 15px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.btn-shop:hover {
+    background: var(--color--hunt);
+}
+
+/* Product */
+
+#product {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.product {
+    position: absolute;
+    top: 0;
+}
+
+.line-product {
+    height: 2px;
+    width: 80%;
+    background: var(--primary);
+}
+
+/* Sales */
+
+#sale {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Contact */
+
+#contact {
+    height: 90vh;
+}
